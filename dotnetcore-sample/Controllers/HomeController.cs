@@ -31,5 +31,9 @@ namespace dotnetcore_sample.Controllers
         {
             return View();
         }
+
+        public IActionResult TestCommit() {
+            return Ok();
+        }
     }
 }
