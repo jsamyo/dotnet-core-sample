@@ -35,5 +35,10 @@ namespace dotnetcore_sample.Controllers
         public IActionResult TestCommit() {
             return Ok();
         }
+
+        public IActionResult TestCommit1()
+        {
+            return Ok();
+        }
     }
 }
